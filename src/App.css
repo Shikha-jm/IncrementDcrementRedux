@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+    margin: 0px !important;
+    background: #608eb478;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    width: 90%;
+    padding: 50px 0px;
+    text-align: center;
+}
+input.quantity_input {
+    padding: 10px 10px;
+    width: 14px;
+    text-align: center;
+    margin: 0px 20px;
+}
+a.quantity_minus, a.quantity_plus{
+    background: #aed581;
+    padding: 5px 18px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #90a4ae;
+    padding: 20px 10px;
+}
